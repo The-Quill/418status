@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Programming personal fable"
+comments: true
 date:   2016-06-23 00:07:09 +1000
 categories: stackexchange
 ---
