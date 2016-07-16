@@ -1,0 +1,18 @@
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: 418 Status
+email: seriouslyquill@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  418 Status: A blog about about programming, tech and other things.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://418stat.us" # the base hostname & protocol for your site
+web_counter: true
+twitter_username: CodeQuicksand
+github_username: The-Quill
+permalink: /:year/:month/:title/
+categories_to_page: ["code", "game", "anime"]
+
+# Build settings
+markdown: kramdown

@@ -1,0 +1,12 @@
+.dropdown-menu > li > a {
+    @include media-query($on-palm){
+        color: white !important;
+    }
+}
+.dropdown-header {
+    color: #2aa198 !important;
+}
+.navbar-toggle .icon-bar {
+    background-color: white !important;
+    height: 3px !important;
+}

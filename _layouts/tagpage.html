@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<h1>Posts tagged <span class="onebox">{{ page.tag }}</span></h1>
+<ul>
+    {% for p in site.posts %}
+        {% if p.categories contains page.tag %}
+            {% include post.html post=p%}
+        {% endif %}
+    {% endfor %}
+</ul>
+<p class="rss-subscribe">subscribe <a href="feed.xml">via RSS</a></p><div>

@@ -1,0 +1,8 @@
+<li>
+    <h2>
+        <a class="post-link" href="{{ include.post.url | prepend: site.baseurl }}">{{ include.post.title }}</a>
+    </h2>
+    <span class="post-meta">{{ include.post.date | date: "%b %-d, %Y" }}
+        {% include tags.html post=include.post %}
+    </span>
+</li>

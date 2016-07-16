@@ -1,0 +1,7 @@
+        {% for category in include.post.categories %}
+            {% if site.categories_to_page contains category %}
+                <a href="/tags/{{ category | prepend: site.baseurl }}" class="onebox">{{ category }}</a>
+            {% else %}
+                <span class="onebox">{{ category }}</span>
+            {% endif %}
+        {% endfor %}
