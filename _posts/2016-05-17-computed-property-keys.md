@@ -8,7 +8,7 @@ categories: code javascript down-the-rabbit-hole
 
 In a [previous blog post][javascripts type system], I described how [`Symbol.toPrimitive`][toPrimitive] controls the flow of operation for certain operations on non-primitive types.
 
-To follow up in this blog post, I'll describe how `toPrimitive` can be overloaded using computed property keys, what computed property keys are, and a little bit on what [Symbols][Symbol] are.
+To follow up in this blog post, I'll describe how `toPrimitive` can be overloaded using computed property keys, what computed property keys are, and a little bit on what [`Symbol`s][Symbol] are.
 
 Previously in JavaScript, you couldn't programmatically assign the values of your object keys in the object initializer syntax, but in ECMAScript 2015, computed property keys were added, allowing you to programmatically assign property keys with the `[expression]` syntax.
 
@@ -97,5 +97,6 @@ Which would make results like this:
 The use case on a feature like this is pretty slim, outside of something using JavaScript's type system to make a custom type or similar.
 
 [javascripts type system]: http://418stat.us/2016/04/javascripts-type-system/
+[Symbol]: https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Symbol
 [toPrimitive]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/toPrimitive
 [da docs]: https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Object_initializer
