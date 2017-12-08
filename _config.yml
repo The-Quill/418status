@@ -12,7 +12,7 @@ web_counter: true
 twitter_username: CodeQuicksand
 github_username: The-Quill
 permalink: /:year/:month/:title/
-categories_to_page: ["code", "game"]
+categories_to_page: ["code", "game", "security", "terminal", "linux"]
 
 # Build settings
 markdown: kramdown
