@@ -9,8 +9,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <img class="header-image" src="{{ '/css/icon.png' | prepend: site.baseurl }}">
-                <a class="navbar-brand" href="http://418stat.us">418 Status</a>
+                <img class="header-image" src="{{ '/images/small.png' | prepend: site.baseurl }}">
+                <a class="navbar-brand" href="http://418stat.us">{{ site.title }}</a>
             </div>
             <div class="navbar-collapse collapse" id="navbar">
                 <ul class="nav navbar-nav">
@@ -18,7 +18,7 @@
                         <a href="http://418stat.us">Home</a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/CodeQuicksand">Twitter</a>
+                        <a href="https://twitter.com/{{site.twitter_username}}">Twitter</a>
                     </li>
                 </ul>
             </div>
